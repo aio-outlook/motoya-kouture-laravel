@@ -5,9 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title', 'Motoya Kouture')</title>
-    <meta content="Motoya Koture is a fashion hub for celebrities and Brides." name="description">
+    <meta content="Motoya Kouture is a fashion hub for celebrities and Brides." name="description">
     <meta content="Bridals, Wedding." name="keywords">
 
+     <!-- SEO Meta Tags -->
+        <meta name="description" content="Welcome to Motoya Kouture - Your ultimate destination for fashion. Explore our latest collections and trends.">
+        <meta name="keywords" content="Motoya Kouture, fashion, clothing, trends, luxury, style">
+        <meta name="author" content="Motoya Kouture">
+        <meta name="robots" content="index, follow">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="{{ url('/') }}">
+        <meta property="og:title" content="Motoya Kouture - Fashion for Every Occasion">
+        <meta property="og:description" content="Welcome to Motoya Kouture - Your ultimate destination for fashion. Explore our latest collections and trends.">
+        <meta property="og:image" content="{{ asset('path/to/og-image.jpg') }}">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="{{ url('/') }}">
+        <meta property="twitter:title" content="Motoya Kouture - Fashion for Every Occasion">
+        <meta property="twitter:description" content="Welcome to Motoya Kouture - Your ultimate destination for fashion. Explore our latest collections and trends.">
+        <meta property="twitter:image" content="{{ asset('path/to/twitter-image.jpg') }}">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
