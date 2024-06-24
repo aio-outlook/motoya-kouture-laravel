@@ -29,7 +29,7 @@
           Oluyole Johnson Awe Ibadan,<br>
           Nigeria. <br><br>
           <strong>Phone:</strong> +234 708 534 7953<br>
-          <strong>Email:</strong> info@motoya.org<br>
+          <strong>Email:</strong>info@motoyakouture.org<br>
         </p>
       </div>
 
@@ -62,8 +62,12 @@
           <a href="https://www.twitter.com/motoyakouture/" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="https://www.facebook.com/motoyakouture/" class="facebook"><i class="bx bxl-facebook"></i></a>
           <a href="https://www.instagram.com/motoya_kouture/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://wa.me/2347085347953?text=I'm interested in your custom designs." class="whatsapp" aria-label="Chat on WhatsApp" target="_blank" ><i class="bx bxl-whatsapp"></i></a>
           <!-- <a href="https://www.linkedin.in/in/motoyakouture/" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
         </div>
+        <a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/2347085347953?text=I'm interested in your custom desing" class="whatsapp-button">
+            <!-- <img alt="Chat on WhatsApp" src="{{ asset('assets/img/whatsapp/WhatsAppButtonGreenSmall.png') }}"/> -->Chat on WhatsApp
+           </a>
       </div>
 
     </div>
@@ -81,12 +85,12 @@
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
+<script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+<script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+<script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+<script src="{{asset('assets/vendor/waypoints/noframework.waypoints.js')}}"></script>
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
