@@ -65,7 +65,7 @@
           <a href="https://wa.me/2347085347953?text=I'm interested in your custom designs." class="whatsapp" aria-label="Chat on WhatsApp" target="_blank" ><i class="bx bxl-whatsapp"></i></a>
           <!-- <a href="https://www.linkedin.in/in/motoyakouture/" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
         </div>
-        <a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/2347085347953?text=I'm interested in your custom desing" class="whatsapp-button">
+        <a aria-label="Chat on WhatsApp" target="_blank" href="https://wa.me/2347085347953?text=I'm interested in your custom designs." class="whatsapp-button">
             <!-- <img alt="Chat on WhatsApp" src="{{ asset('assets/img/whatsapp/WhatsAppButtonGreenSmall.png') }}"/> -->Chat on WhatsApp
            </a>
       </div>
