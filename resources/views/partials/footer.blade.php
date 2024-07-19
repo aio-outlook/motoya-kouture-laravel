@@ -29,7 +29,7 @@
           Oluyole Johnson Awe Ibadan,<br>
           Nigeria. <br><br>
           <strong>Phone:</strong> +234 708 534 7953<br>
-          <strong>Email:</strong>info@motoyakouture.org<br>
+          <strong>Email:</strong>info@motoyakouture.com<br>
         </p>
       </div>
 
